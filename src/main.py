@@ -5,7 +5,7 @@ from openai import OpenAI, AuthenticationError, APITimeoutError
 # --- 1. Configuration ---
 
 #  Please enter your DeepSeek API key here
-os.environ["DEEPSEEK_API_KEY"] = "sk-ae8499936565400384ae219ff6771a88"
+os.environ["DEEPSEEK_API_KEY"] = "YOUR API KEY HERE"
 
 # Address of your Cognio server (make sure it's running)
 COGNIO_BASE_URL = "http://localhost:8080"
